@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("========================");
+            System.out.println("Welcome to Maze game!");
+            System.out.println("========================");
 
         while (true) {
 
             Scanner scanner = new Scanner(System.in);
-            System.out.println("========================");
-            System.out.println("Welcome to Maze game!");
-            System.out.println("========================");
             System.out.println("Please choose an option:\nA) Start the game\nB) Exit the game");
             String answer = scanner.nextLine().toUpperCase();
 
